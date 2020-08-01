@@ -1,13 +1,16 @@
 # Read Me Generator
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-Other-brightgreen)<br />
 
 ## Description
-The Read Me Generator is a Node.js application that allows a user to input data via a series of question prompts upon which the application generates a markdown file for the user.
+short description
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [License](#license)
+* [Technology](#technology)
+* [Collaborators](#collaborators)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -20,10 +23,25 @@ npm install inquirer
 ```
 
 ## Usage
-Clone the repo to your machine in order to use the application.
+a lot of shiz
+
+## License
+This application is protected by the the license listed below.  All applicable protections apply.
+
+Other
+
+## Technology
+This application used the following technology:
+
+HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js
+
+## Collaborators
+The following coders collaborated on this application:
+
+John, James, Ashley, and Ron
 
 ## Contributing
-If you would like to contribute to the repo, please open an issue on GitHub.
+ask and i may tell you
 
 ## Tests
 To run tests, run the folloing command:

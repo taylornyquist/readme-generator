@@ -10,6 +10,9 @@ ${data.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [License](#license)
+* [Technology](#technology)
+* [Collaborators](#collaborators)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -23,6 +26,21 @@ ${data.install}
 
 ## Usage
 ${data.repo}
+
+## License
+This application is protected by the the license listed below.  All applicable protections apply.
+
+${data.license}
+
+## Technology
+This application used the following technology:
+
+${data.technology.join(', ')}
+
+## Collaborators
+The following coders collaborated on this application:
+
+${data.collaborators}
 
 ## Contributing
 ${data.contributions}

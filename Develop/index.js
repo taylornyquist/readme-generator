@@ -52,27 +52,55 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
-        choices: ['MIT', 'GPL', 'Apache', 'BSD', 'LGPL', 'None']
+        choices: ['None','MIT', 'GNU', 'GPL', 'Apache', 'BSD', 'LGPL', 'Mozilla', 'Eclipse', 'Public Domain', 'Other'],
+        default: 'None'
+    },
+    {
+        type: 'checkbox',
+        name: 'technology',
+        message: "What technologies were used in this application? (Check all that apply)",
+        choices: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap', 'Node.js']
+    },
+    {
+        type: 'input',
+        name: 'collaborators',
+        message: "List your collaborators separated by a ', ' or enter 'None'"
     },
     {
         type: 'input',
         name: 'install',
         message: "What command should be run to install dependencies?",
+        validate: installInput => {
+            if (installInput) {
+                return true;
+            } else {
+                console.log("Please enter command to install dependencies!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'tests',
         message: "What command should be run to perform tests?",
+        validate: testsInput => {
+            if (testsInput) {
+                return true;
+            } else {
+                console.log("Please enter command to perform tests!");
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'repo',
-        message: "What does the user need to know about using the repo?",
+        message: "What does the user need to know about using the repo?"
     },
     {
         type: 'input',
         name: 'contributions',
-        message: "What does the user need to know about contributing to the repo?",
+        message: "What does the user need to know about contributing to the repo?"
     },
 
 ];
